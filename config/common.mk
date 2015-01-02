@@ -125,14 +125,22 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     vendor/candy5/config/permissions/com.cyanogenmod.android.xml:system/etc/permissions/com.cyanogenmod.android.xml
 
+
 # T-Mobile theme engine
 include vendor/candy5/config/themes_common.mk
+
+# SuperSU
+PRODUCT_COPY_FILES += \
+    vendor/candy5/prebuilt/common/etc/UPDATE-SuperSU.zip:system/addon.d/UPDATE-SuperSU.zip \
+    vendor/candy5/prebuilt/common/etc/init.d/99SuperSUDaemon:system/etc/init.d/99SuperSUDaemon
 
 # Required CM packages
 PRODUCT_PACKAGES += \
     Development \
     BluetoothExt \
-    Profiles
+    Profiles \
+    SpareParts \
+    su
 
 # Optional CM packages
 PRODUCT_PACKAGES += \
@@ -212,7 +220,6 @@ ifneq ($(TARGET_BUILD_VARIANT),user)
 PRODUCT_PACKAGES += \
     procmem \
     procrank \
-    su
     
 # OmniSwitch 
 PRODUCT_PACKAGES += \
