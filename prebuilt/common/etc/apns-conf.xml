@@ -1142,6 +1142,7 @@
   <apn carrier="UNIONMMS" mcc="310" mnc="020" apn="union.mms.com" proxy="" port="" mmsproxy="" mmsport="" mmsc="http://mms.unionwireless.com" server="" user="" password="" authtype="0" type="mms" />
   <apn carrier="Cellular South" mcc="310" mnc="023" apn="internet" mmsc="http://pix.cellularsouth.com/servlets/mms" authtype="3" port="" mmsport="" type="mms" />
   <apn carrier="metropcs" mcc="310" mnc="027" apn="wap.metropcs.net" user="MDN@mymetropcs.com" password="metropcs" server="http://mms.metropcs.net/servlets/mmsc" mmsc="http://mms.metropcs.net/mmsc" mmsport="3128" type="default,supl,mms" />
+  <apn carrier="MetroPCS LTE" mcc="310" mnc="260" apn="fast.metropcs.com" user="" password="" authtype="0" server="" proxy="" port="" mmsc="http://metropcs.mmsmvno.com/mms/wapenc" mmsproxy="" mmsport="" type="default,mms,supl" />
   <apn carrier="myBlue Pix" mcc="310" mnc="030" apn="mmswap.centennialwireless.com" mmsc="http://mms.myblue.com/servlets/mms" mmsproxy="63.99.231.135" mmsport="8080" type="mms" />
   <apn carrier="Internet" mcc="310" mnc="030" apn="private.centennialwireless.com" user="privuser" password="priv" type="default,supl" />
   <apn carrier="CorrMMS" mcc="310" mnc="080" apn="corrmms" mmsc="http://mms.iot1.com/corr/mms.php" mmsproxy="66.255.55.23" mmsport="80" type="mms" />
@@ -1156,10 +1157,10 @@
   <apn carrier="PLAT-OTA-MMS" mcc="310" mnc="100" apn="plateaumms" password="mmsc" mmsc="208.254.124.11:8514" mmsproxy="208.254.124.11" mmsport="8080" type="mms" />
   <apn carrier="PLATWEB" mcc="310" mnc="100" apn="plateauweb" type="default,supl" />
   <apn carrier="Sprint MMS" mcc="310" mnc="120" apn="Sprint" user="Sprint" server="*" type="mms" password="*" mmsc="http://mms.sprintpcs.com" mmsproxy="68.28.31.7" mmsport="80" authtype="3"/>
-  <apn carrier="Sprint LTE ota" mcc="310" mnc="120" apn="otasn" type="fota" protocol="IPV4V6" roaming_protocol="IPV4V6" />
-  <apn carrier="Sprint EHRPD ota" mcc="310" mnc="120" apn="otasn" type="fota" protocol="IPV4V6" roaming_protocol="IPV4V6" />
-  <apn carrier="Sprint LTE internet" mcc="310" mnc="120" apn="n.ispsn" type="default,mms,supl,hipri" mmsc="http://mms.sprintpcs.com" mmsproxy="68.28.31.7" mmsport="80" protocol="IPV4V6" roaming_protocol="IPV4V6" />
-  <apn carrier="Sprint EHRPD internet" mcc="310" mnc="120" apn="n.ispsn" type="default,mms,supl,hipri" mmsc="http://mms.sprintpcs.com" mmsproxy="68.28.31.7" mmsport="80" protocol="IPV4V6" roaming_protocol="IPV4V6" />
+  <apn carrier="Sprint LTE ota" mcc="310" mnc="120" apn="otasn" type="fota" protocol="IPV4V6" roaming_protocol="IPV4V6" bearer="14" />
+  <apn carrier="Sprint EHRPD ota" mcc="310" mnc="120" apn="otasn" type="fota" protocol="IPV4V6" roaming_protocol="IPV4V6" bearer="13" />
+  <apn carrier="Sprint LTE internet" mcc="310" mnc="120" apn="n.ispsn" type="default,mms,supl,hipri" mmsc="http://mms.sprintpcs.com" mmsproxy="68.28.31.7" mmsport="80" protocol="IPV4V6" roaming_protocol="IPV4V6" bearer="14" />
+  <apn carrier="Sprint EHRPD internet" mcc="310" mnc="120" apn="n.ispsn" type="default,mms,supl,hipri" mmsc="http://mms.sprintpcs.com" mmsproxy="68.28.31.7" mmsport="80" protocol="IPV4V6" roaming_protocol="IPV4V6" bearer="13" />
   <apn carrier="Sprint internet" mcc="310" mnc="120" apn="n.ispsn" type="mms,supl,hipri" mmsc="http://mms.sprintpcs.com" mmsproxy="68.28.31.7" mmsport="80" protocol="IPV4V6" roaming_protocol="IPV4V6" />
   <apn carrier="Boost" mcc="310" mnc="120" apn="cinet.spcs" type="supl,mms,dun,fota" mmsc="http://mm.myboostmobile.com" mmsproxy="68.28.31.7" mmsport="80" protocol="IPV4V6" roaming_protocol="IPV4V6" />
   <apn carrier="Credo Mobile" mcc="310" mnc="120" apn="n.w1.ispsn" type="mms" mmsc="http://mms.plspictures.com" mmsproxy="68.28.31.7" mmsport="80" protocol="IPV4V6" roaming_protocol="IPV4V6" />
@@ -1675,6 +1676,8 @@
   <apn carrier="IDEA MMS" mcc="404" mnc="04" apn="mmsc" proxy="" port="" mmsproxy="10.4.42.15" mmsport="8080" mmsc="http://10.4.42.21:8002" server="" user="" password="" type="mms" />
   <apn carrier="IDEA Mobile" mcc="404" mnc="04" apn="mobile" proxy="" port="" mmsproxy="" mmsport="" mmsc="" user="" password="" type="default,supl" />
   <apn carrier="Vodafone" mcc="404" mnc="05" apn="portalnmms" proxy="10.10.1.100" port="9401" mmsproxy="10.10.1.100" mmsport="9401" mmsc="http://mms1.live.vodafone.in/mms/" server="" user="" password="" type="*" />
+  <apn carrier="IDEA" mcc="404" mnc="04" apn="internet" type="default,supl" />
+  <apn carrier="IDEA MMS" mcc="404" mnc="04" apn="mmsc" mmsc="http://10.4.42.21:8002/" mmsproxy="10.4.42.15" mmsport="8080" type="mms" />
   <apn carrier="Vodafone IN MMS" mcc="404" mnc="05" apn="portalnmms" mmsc="http://mms1.live.vodafone.in/mms/" mmsproxy="10.10.1.100" mmsport="9401" type="mms" />
   <apn carrier="Vodafone IN" mcc="404" mnc="05" apn="www" type="default,supl" />
   <apn carrier="Airtel Live" mcc="404" mnc="06" apn="airtelfun.com" proxy="100.1.200.99" port="8080" mmsproxy="" mmsport="" mmsc="" server="" user="" password="" type="default,supl" />
@@ -1687,6 +1690,10 @@
   <apn carrier="NetConnect" mcc="404" mnc="09" apn="rcomnet" proxy="" port="" mmsproxy="" mmsport="" mmsc="" server="" user="" password="" type="default,supl" />
   <apn carrier="Reliance GPRS" mcc="404" mnc="09" apn="rcomwap" proxy="10.239.221.5" port="8080" mmsproxy="" mmsport="" mmsc="" server="" user="" password="" type="default,supl" />
   <apn carrier="Smart MMS" mcc="404" mnc="09" apn="rcommms" proxy="10.239.221.5" port="8080" mmsproxy="10.239.221.5" mmsport="8080" mmsc="http://10.239.221.47/mms/" server="" user="" password="" type="mms" />
+  <apn carrier="Airtel Live" mcc="404" mnc="06" apn="airtelfun.com" proxy="100.1.200.99" port="8080" type="default,supl" />
+  <apn carrier="Airtel MMS" mcc="404" mnc="06" apn="airtelmms.com" authtype="1" mmsc="http://100.1.201.171:10021/mmsc" mmsproxy="100.1.201.172" mmsport="8799" type="mms" />
+  <apn carrier="IDEA" mcc="404" mnc="07" apn="internet" type="default,supl" />
+  <apn carrier="IDEA MMS" mcc="404" mnc="07" apn="mmsc" mmsc="http://10.4.42.21:8002/" mmsproxy="10.4.42.15" mmsport="8080" type="mms" />
   <apn carrier="Reliance RTel MMS" mcc="404" mnc="09" apn="MMS" mmsc="http://10.239.221.47/mms/" mmsproxy="10.239.221.7" mmsport="8080" type="mms" />
   <apn carrier="Reliance RTel" mcc="404" mnc="09" apn="SMARTNET" type="default,supl" />
   <apn carrier="Reliance WAP" mcc="404" mnc="09" apn="rcomwap" proxy="10.239.221.5" port="8080" type="default,supl" />
@@ -1694,6 +1701,8 @@
   <apn carrier="Airtel MMS" mcc="404" mnc="10" apn="airtelmms.com" proxy="" port="" mmsproxy="100.1.201.172" mmsport="8799" mmsc="http://100.1.201.171:10021/mmsc" server="" user="" password="" type="mms" />
   <apn carrier="Airtel GPRS" mcc="404" mnc="10" apn="airtelgprs.com" type="default,supl" />
   <apn carrier="Vodafone" mcc="404" mnc="11" apn="portalnmms" proxy="10.10.1.100" port="9401" mmsproxy="10.10.1.100" mmsport="9401" mmsc="http://mms1.live.vodafone.in/mms/" server="" user="" password="" type="*" />
+  <apn carrier="Airtel Live" mcc="404" mnc="10" apn="airtelfun.com" proxy="100.1.200.99" port="8080" type="default,supl" />
+  <apn carrier="Airtel MMS" mcc="404" mnc="10" apn="airtelmms.com" authtype="1" mmsc="http://100.1.201.171:10021/mmsc" mmsproxy="100.1.201.172" mmsport="8799" type="mms" />
   <apn carrier="Vodafone IN MMS" mcc="404" mnc="11" apn="portalnmms" mmsc="http://mms1.live.vodafone.in/mms/" mmsproxy="10.10.1.100" mmsport="9401" type="mms" />
   <apn carrier="Vodafone IN" mcc="404" mnc="11" apn="www" type="default,supl" />
   <apn carrier="IDEA Internet" mcc="404" mnc="12" apn="internet" proxy="" port="" mmsproxy="" mmsport="" mmsc="" server="" user="" password="" type="default,supl" />
@@ -1721,6 +1730,10 @@
   <apn carrier="NetConnect" mcc="404" mnc="18" apn="rcomnet" proxy="" port="" mmsproxy="" mmsport="" mmsc="" server="" user="" password="" type="default,supl" />
   <apn carrier="Reliance GPRS" mcc="404" mnc="18" apn="rcomwap" proxy="10.239.221.5" port="8080" mmsproxy="" mmsport="" mmsc="" server="" user="" password="" type="default,supl" />
   <apn carrier="Smart MMS" mcc="404" mnc="18" apn="rcommms" proxy="10.239.221.5" port="8080" mmsproxy="10.239.221.5" mmsport="8080" mmsc="http://10.239.221.47/mms/" server="" user="" password="" type="mms" />
+  <apn carrier="Airtel Live" mcc="404" mnc="16" apn="airtelfun.com" proxy="100.1.200.99" port="8080" type="default,supl" />
+  <apn carrier="Airtel MMS" mcc="404" mnc="16" apn="airtelmms.com" authtype="1" mmsc="http://100.1.201.171:10021/mmsc" mmsproxy="100.1.201.172" mmsport="8799" type="mms" />
+  <apn carrier="Aircel" mcc="404" mnc="17" apn="aircelgprs" type="default,supl" />
+  <apn carrier="Aircel MMS" mcc="404" mnc="17" apn="aircelmms" proxy="172.17.83.69" port="8080" mmsc="http://172.17.83.67//servlets/mms" mmsproxy="172.17.83.69" mmsport="8080" type="mms" />
   <apn carrier="Reliance MMS" mcc="404" mnc="18" apn="rcommms" proxy="10.239.221.5" port="8080" mmsc="http://mms.rcom.co.in/mms" mmsproxy="10.239.221.5" mmsport="8080" type="mms" />
   <apn carrier="IDEA Internet" mcc="404" mnc="19" apn="internet" proxy="" port="" mmsproxy="" mmsport="" mmsc="" server="" user="" password="" type="default,supl" />
   <apn carrier="IDEA Wap" mcc="404" mnc="19" apn="imis" proxy="10.4.42.15" port="8080" mmsproxy="" mmsport="" mmsc="" server="" user="" password="" type="default,supl" />
@@ -1769,6 +1782,10 @@
   <apn carrier="BSNL NET" mcc="404" mnc="34" apn="bsnlnet" proxy="" port="" mmsproxy="" mmsport="" mmsc="" server="" user="" password="" type="default,supl" />
   <apn carrier="BSNL WAP" mcc="404" mnc="34" apn="WAPSOUTH.CELLONE.IN" proxy="10.31.54.2" port="9401" mmsproxy="" mmsport="" mmsc="" server="" user="PPP" password="PPP123" type="default,supl" />
   <apn carrier="BSNL-mms" mcc="404" mnc="34" apn="bsnlmms" proxy="10.210.10.11" port="8080" mmsproxy="10.210.10.11" mmsport="8080" mmsc="http://bsnlmmsc.in:8514" server="" user="" password="" type="mms" />
+  <apn carrier="Airtel Live" mcc="404" mnc="31" apn="airtelfun.com" proxy="100.1.200.99" port="8080" type="default,supl" />
+  <apn carrier="Airtel MMS" mcc="404" mnc="31" apn="airtelmms.com" authtype="1" mmsc="http://100.1.201.171:10021/mmsc" mmsproxy="100.1.201.172" mmsport="8799" type="mms" />
+  <apn carrier="Aircel" mcc="404" mnc="33" apn="aircelgprs" type="default,supl" />
+  <apn carrier="Aircel MMS" mcc="404" mnc="33" apn="aircelmms" proxy="172.17.83.69" port="8080" mmsc="http://172.17.83.67//servlets/mms" mmsproxy="172.17.83.69" mmsport="8080" type="mms" />
   <apn carrier="BSNL" mcc="404" mnc="34" apn="bsnlnet" user="MSISDN" password="MSISDN" type="default,supl" />
   <apn carrier="BSNL MMS" mcc="404" mnc="34" apn="mmssouth.cellone.in" user="MSISDN" password="mmsc" mmsc="http://10.7.236.11:8514" mmsproxy="10.7.236.11" mmsport="8080" type="mms" />
   <apn carrier="Aircel Online" mcc="404" mnc="35" apn="aircelgprs" proxy="" port="" mmsproxy="" mmsport="" mmsc="" server="" user="" password="" type="default,supl" />
@@ -1800,6 +1817,12 @@
   <apn carrier="Aircel MMS" mcc="404" mnc="42" apn="aircelmms" proxy="" port="" mmsproxy="172.17.83.69" mmsport="8080" mmsc="http://172.17.83.67/servlets/mms/" server="" user="" password="" type="mms" />
   <apn carrier="Aircel" mcc="404" mnc="42" apn="aircelwap" type="default,supl" />
   <apn carrier="Vodafone" mcc="404" mnc="43" apn="portalnmms" proxy="10.10.1.100" port="9401" mmsproxy="10.10.1.100" mmsport="9401" mmsc="http://mms1.live.vodafone.in/mms/" server="" user="" password="" type="*" />
+  <apn carrier="Airtel Live" mcc="404" mnc="40" apn="airtelfun.com" proxy="100.1.200.99" port="8080" type="default,supl" />
+  <apn carrier="Airtel MMS" mcc="404" mnc="40" apn="airtelmms.com" authtype="1" mmsc="http://100.1.201.171:10021/mmsc" mmsproxy="100.1.201.172" mmsport="8799" type="mms" />
+  <apn carrier="Aircel" mcc="404" mnc="41" apn="aircelgprs" type="default,supl" />
+  <apn carrier="Aircel MMS" mcc="404" mnc="41" apn="aircelmms" proxy="172.17.83.69" port="8080" mmsc="http://172.17.83.67//servlets/mms" mmsproxy="172.17.83.69" mmsport="8080" type="mms" />
+  <apn carrier="Aircel" mcc="404" mnc="42" apn="aircelgprs" type="default,supl" />
+  <apn carrier="Aircel MMS" mcc="404" mnc="42" apn="aircelmms" proxy="172.17.83.69" port="8080" mmsc="http://172.17.83.67//servlets/mms" mmsproxy="172.17.83.69" mmsport="8080" type="mms" />
   <apn carrier="Vodafone IN MMS" mcc="404" mnc="43" apn="portalnmms" mmsc="http://mms1.live.vodafone.in/mms/" mmsproxy="10.10.1.100" mmsport="9401" type="mms" />
   <apn carrier="Vodafone IN" mcc="404" mnc="43" apn="www" type="default,supl" />
   <apn carrier="IDEA Internet" mcc="404" mnc="44" apn="internet" proxy="" port="" mmsproxy="" mmsport="" mmsc="" server="" user="" password="" type="default,supl" />
@@ -1811,6 +1834,8 @@
   <apn carrier="Airtel MMS" mcc="404" mnc="45" apn="airtelmms.com" proxy="" port="" mmsproxy="100.1.201.172" mmsport="8799" mmsc="http://100.1.201.171:10021/mmsc" server="" user="" password="" type="mms" />
   <apn carrier="Airtel GPRS" mcc="404" mnc="45" apn="airtelgprs.com" type="default,supl" />
   <apn carrier="Vodafone" mcc="404" mnc="46" apn="portalnmms" proxy="10.10.1.100" port="9401" mmsproxy="10.10.1.100" mmsport="9401" mmsc="http://mms1.live.vodafone.in/mms/" server="" user="" password="" type="*" />
+  <apn carrier="Airtel Live" mcc="404" mnc="45" apn="airtelfun.com" proxy="100.1.200.99" port="8080" type="default,supl" />
+  <apn carrier="Airtel MMS" mcc="404" mnc="45" apn="airtelmms.com" authtype="1" mmsc="http://100.1.201.171:10021/mmsc" mmsproxy="100.1.201.172" mmsport="8799" type="mms" />
   <apn carrier="BPL MMS" mcc="404" mnc="46" apn="mizone" user="MSISDN" password="bplmmsc" mmsc="http://mms.bplmobile.com:8080" mmsproxy="10.0.0.10" mmsport="8080" type="mms" />
   <apn carrier="BPL" mcc="404" mnc="46" apn="www" user="MSISDN" password="bplmmsc" type="default,supl" />
   <apn carrier="Airtel Live" mcc="404" mnc="49" apn="airtelfun.com" proxy="100.1.200.99" port="8080" mmsproxy="" mmsport="" mmsc="" server="" user="" password="" type="default,supl" />
@@ -1819,6 +1844,8 @@
   <apn carrier="NetConnect" mcc="404" mnc="50" apn="rcomnet" proxy="" port="" mmsproxy="" mmsport="" mmsc="" server="" user="" password="" type="default,supl" />
   <apn carrier="Reliance GPRS" mcc="404" mnc="50" apn="rcomwap" proxy="10.239.221.5" port="8080" mmsproxy="" mmsport="" mmsc="" server="" user="" password="" type="default,supl" />
   <apn carrier="Smart MMS" mcc="404" mnc="50" apn="rcommms" proxy="10.239.221.5" port="8080" mmsproxy="10.239.221.5" mmsport="8080" mmsc="http://10.239.221.47/mms/" server="" user="" password="" type="mms" />
+  <apn carrier="Airtel Live" mcc="404" mnc="49" apn="airtelfun.com" proxy="100.1.200.99" port="8080" type="default,supl" />
+  <apn carrier="Airtel MMS" mcc="404" mnc="49" apn="airtelmms.com" authtype="1" mmsc="http://100.1.201.171:10021/mmsc" mmsproxy="100.1.201.172" mmsport="8799" type="mms" />
   <apn carrier="Reliance MMS" mcc="404" mnc="50" apn="rcommms" proxy="10.239.221.5" port="8080" mmsc="http://mms.rcom.co.in/mms" mmsproxy="10.239.221.5" mmsport="8080" type="mms" />
   <apn carrier="BSNL NET" mcc="404" mnc="51" apn="bsnlnet" proxy="" port="" mmsproxy="" mmsport="" mmsc="" server="" user="" password="" type="default,supl" />
   <apn carrier="BSNL WAP" mcc="404" mnc="51" apn="WAPSOUTH.CELLONE.IN" proxy="10.31.54.2" port="9401" mmsproxy="" mmsport="" mmsc="" server="" user="PPP" password="PPP123" type="default,supl" />
@@ -1907,6 +1934,8 @@
   <apn carrier="BSNL NET" mcc="404" mnc="71" apn="bsnlnet" proxy="" port="" mmsproxy="" mmsport="" mmsc="" server="" user="" password="" type="default,supl" />
   <apn carrier="BSNL WAP" mcc="404" mnc="71" apn="WAPSOUTH.CELLONE.IN" proxy="10.31.54.2" port="9401" mmsproxy="" mmsport="" mmsc="" server="" user="PPP" password="PPP123" type="default,supl" />
   <apn carrier="BSNL-mms" mcc="404" mnc="71" apn="bsnlmms" proxy="10.210.10.11" port="8080" mmsproxy="10.210.10.11" mmsport="8080" mmsc="http://bsnlmmsc.in:8514" server="" user="" password="" type="mms" />
+  <apn carrier="Airtel Live" mcc="404" mnc="70" apn="airtelfun.com" proxy="100.1.200.99" port="8080" type="default,supl" />
+  <apn carrier="Airtel MMS" mcc="404" mnc="70" apn="airtelmms.com" authtype="1" mmsc="http://100.1.201.171:10021/mmsc" mmsproxy="100.1.201.172" mmsport="8799" type="mms" />
   <apn carrier="BSNL" mcc="404" mnc="71" apn="bsnlnet" user="MSISDN" password="MSISDN" type="default,supl" />
   <apn carrier="BSNL MMS" mcc="404" mnc="71" apn="mmssouth.cellone.in" user="MSISDN" password="mmsc" mmsc="http://10.7.236.11:8514" mmsproxy="10.7.236.11" mmsport="8080" type="mms" />
   <apn carrier="BSNL NET" mcc="404" mnc="72" apn="bsnlnet" proxy="" port="" mmsproxy="" mmsport="" mmsc="" server="" user="" password="" type="default,supl" />
@@ -1992,6 +2021,8 @@
   <apn carrier="Aircel GPRS" mcc="404" mnc="91" apn="aircelwap" proxy="172.17.83.69" port="8080" mmsproxy="" mmsport="" mmsc="" server="" user="" password="" type="default,supl" />
   <apn carrier="Aircel MMS" mcc="404" mnc="91" apn="aircelmms" proxy="" port="" mmsproxy="172.17.83.69" mmsport="8080" mmsc="http://172.17.83.67/servlets/mms/" server="" user="" password="" type="mms" />
   <apn carrier="Aircel" mcc="404" mnc="91" apn="aircelwap" type="default,supl" />
+  <apn carrier="Airtel Live" mcc="404" mnc="90" apn="airtelfun.com" proxy="100.1.200.99" port="8080" type="default,supl" />
+  <apn carrier="Airtel MMS" mcc="404" mnc="90" apn="airtelmms.com" authtype="1" mmsc="http://100.1.201.171:10021/mmsc" mmsproxy="100.1.201.172" mmsport="8799" type="mms" />
   <apn carrier="Aircel" mcc="404" mnc="91" apn="aircelgprs" type="default,supl" />
   <apn carrier="Aircel MMS" mcc="404" mnc="91" apn="aircelmms" proxy="172.17.83.69" port="8080" mmsc="http://172.17.83.67//servlets/mms" mmsproxy="172.17.83.69" mmsport="8080" type="mms" />
   <apn carrier="Airtel Live" mcc="404" mnc="92" apn="airtelfun.com" proxy="100.1.200.99" port="8080" mmsproxy="" mmsport="" mmsc="" server="" user="" password="" type="default,supl" />
@@ -2017,6 +2048,26 @@
   <apn carrier="NetConnect" mcc="405" mnc="01" apn="rcomnet" proxy="" port="" mmsproxy="" mmsport="" mmsc="" server="" user="" password="" type="default,supl" />
   <apn carrier="Reliance GPRS" mcc="405" mnc="01" apn="rcomwap" proxy="10.239.221.5" port="8080" mmsproxy="" mmsport="" mmsc="" server="" user="" password="" type="default,supl" />
   <apn carrier="Smart MMS" mcc="405" mnc="01" apn="rcommms" proxy="10.239.221.5" port="8080" mmsproxy="10.239.221.5" mmsport="8080" mmsc="http://10.239.221.47/mms/" server="" user="" password="" type="mms" />
+  <apn carrier="Airtel Live" mcc="404" mnc="92" apn="airtelfun.com" proxy="100.1.200.99" port="8080" type="default,supl" />
+  <apn carrier="Airtel MMS" mcc="404" mnc="92" apn="airtelmms.com" authtype="1" mmsc="http://100.1.201.171:10021/mmsc" mmsproxy="100.1.201.172" mmsport="8799" type="mms" />
+  <apn carrier="Airtel GPRS" mcc="404" mnc="93" apn="airtelgprs.com" type="default,supl" />
+  <apn carrier="Airtel Live" mcc="404" mnc="93" apn="airtelfun.com" proxy="100.1.200.99" port="8080" type="default,supl" />
+  <apn carrier="Airtel MMS" mcc="404" mnc="93" apn="airtelmms.com" authtype="1" mmsc="http://100.1.201.171:10021/mmsc" mmsproxy="100.1.201.172" mmsport="8799" type="mms" />
+  <apn carrier="Airtel GPRS" mcc="404" mnc="94" apn="airtelgprs.com" type="default,supl" />
+  <apn carrier="Airtel Live" mcc="404" mnc="94" apn="airtelfun.com" proxy="100.1.200.99" port="8080" type="default,supl" />
+  <apn carrier="Airtel MMS" mcc="404" mnc="94" apn="airtelmms.com" authtype="1" mmsc="http://100.1.201.171:10021/mmsc" mmsproxy="100.1.201.172" mmsport="8799" type="mms" />
+  <apn carrier="Airtel GPRS" mcc="404" mnc="95" apn="airtelgprs.com" type="default,supl" />
+  <apn carrier="Airtel Live" mcc="404" mnc="95" apn="airtelfun.com" proxy="100.1.200.99" port="8080" type="default,supl" />
+  <apn carrier="Airtel MMS" mcc="404" mnc="95" apn="airtelmms.com" authtype="1" mmsc="http://100.1.201.171:10021/mmsc" mmsproxy="100.1.201.172" mmsport="8799" type="mms" />
+  <apn carrier="Airtel GPRS" mcc="404" mnc="96" apn="airtelgprs.com" type="default,supl" />
+  <apn carrier="Airtel Live" mcc="404" mnc="96" apn="airtelfun.com" proxy="100.1.200.99" port="8080" type="default,supl" />
+  <apn carrier="Airtel MMS" mcc="404" mnc="96" apn="airtelmms.com" authtype="1" mmsc="http://100.1.201.171:10021/mmsc" mmsproxy="100.1.201.172" mmsport="8799" type="mms" />
+  <apn carrier="Airtel GPRS" mcc="404" mnc="97" apn="airtelgprs.com" type="default,supl" />
+  <apn carrier="Airtel Live" mcc="404" mnc="97" apn="airtelfun.com" proxy="100.1.200.99" port="8080" type="default,supl" />
+  <apn carrier="Airtel MMS" mcc="404" mnc="97" apn="airtelmms.com" authtype="1" mmsc="http://100.1.201.171:10021/mmsc" mmsproxy="100.1.201.172" mmsport="8799" type="mms" />
+  <apn carrier="Airtel GPRS" mcc="404" mnc="98" apn="airtelgprs.com" type="default,supl" />
+  <apn carrier="Airtel Live" mcc="404" mnc="98" apn="airtelfun.com" proxy="100.1.200.99" port="8080" type="default,supl" />
+  <apn carrier="Airtel MMS" mcc="404" mnc="98" apn="airtelmms.com" authtype="1" mmsc="http://100.1.201.171:10021/mmsc" mmsproxy="100.1.201.172" mmsport="8799" type="mms" />
   <apn carrier="Reliance MMS" mcc="405" mnc="01" apn="rcommms" proxy="10.239.221.5" port="8080" mmsc="http://10.239.221.47/mms" mmsproxy="10.239.221.5" mmsport="8080" type="mms" />
   <apn carrier="TATA DOCOMO INTERNET" mcc="405" mnc="025" apn="TATA.DOCOMO.INTERNET" proxy="" port="" mmsproxy="" mmsport="" mmsc="" server="" user="" password="" type="default,supl" />
   <apn carrier="TATA GPRS" mcc="405" mnc="025" apn="Tata.Docomo.Dive.in" proxy="10.124.94.7" port="8080" mmsproxy="" mmsport="" mmsc="" server="" user="" password="" type="default,supl" />
@@ -2267,6 +2318,21 @@
   <apn carrier="Airtel Live" mcc="405" mnc="56" apn="airtelfun.com" proxy="100.1.200.99" port="8080" type="default,supl" />
   <apn carrier="Airtel MMS" mcc="405" mnc="56" apn="airtelmms.com" authtype="1" mmsc="http://100.1.201.171:10021/mmsc" mmsproxy="100.1.201.172" mmsport="8799" type="mms" />
   <apn carrier="Vodafone" mcc="405" mnc="66" apn="portalnmms" proxy="10.10.1.100" port="9401" mmsproxy="10.10.1.100" mmsport="9401" mmsc="http://mms1.live.vodafone.in/mms/" server="" user="" password="" type="*" />
+  <apn carrier="Airtel GPRS" mcc="405" mnc="52" apn="airtelgprs.com" type="default,supl" />
+  <apn carrier="Airtel Live" mcc="405" mnc="52" apn="airtelfun.com" proxy="100.1.200.99" port="8080" type="default,supl" />
+  <apn carrier="Airtel MMS" mcc="405" mnc="52" apn="airtelmms.com" authtype="1" mmsc="http://100.1.201.171:10021/mmsc" mmsproxy="100.1.201.172" mmsport="8799" type="mms" />
+  <apn carrier="Airtel GPRS" mcc="405" mnc="53" apn="airtelgprs.com" type="default,supl" />
+  <apn carrier="Airtel Live" mcc="405" mnc="53" apn="airtelfun.com" proxy="100.1.200.99" port="8080" type="default,supl" />
+  <apn carrier="Airtel MMS" mcc="405" mnc="53" apn="airtelmms.com" authtype="1" mmsc="http://100.1.201.171:10021/mmsc" mmsproxy="100.1.201.172" mmsport="8799" type="mms" />
+  <apn carrier="Airtel GPRS" mcc="405" mnc="54" apn="airtelgprs.com" type="default,supl" />
+  <apn carrier="Airtel Live" mcc="405" mnc="54" apn="airtelfun.com" proxy="100.1.200.99" port="8080" type="default,supl" />
+  <apn carrier="Airtel MMS" mcc="405" mnc="54" apn="airtelmms.com" authtype="1" mmsc="http://100.1.201.171:10021/mmsc" mmsproxy="100.1.201.172" mmsport="8799" type="mms" />
+  <apn carrier="Airtel GPRS" mcc="405" mnc="55" apn="airtelgprs.com" type="default,supl" />
+  <apn carrier="Airtel Live" mcc="405" mnc="55" apn="airtelfun.com" proxy="100.1.200.99" port="8080" type="default,supl" />
+  <apn carrier="Airtel MMS" mcc="405" mnc="55" apn="airtelmms.com" authtype="1" mmsc="http://100.1.201.171:10021/mmsc" mmsproxy="100.1.201.172" mmsport="8799" type="mms" />
+  <apn carrier="Airtel GPRS" mcc="405" mnc="56" apn="airtelgprs.com" type="default,supl" />
+  <apn carrier="Airtel Live" mcc="405" mnc="56" apn="airtelfun.com" proxy="100.1.200.99" port="8080" type="default,supl" />
+  <apn carrier="Airtel MMS" mcc="405" mnc="56" apn="airtelmms.com" authtype="1" mmsc="http://100.1.201.171:10021/mmsc" mmsproxy="100.1.201.172" mmsport="8799" type="mms" />
   <apn carrier="Vodafone IN MMS" mcc="405" mnc="66" apn="portalnmms" mmsc="http://mms1.live.vodafone.in/mms/" mmsproxy="10.10.1.100" mmsport="9401" type="mms" />
   <apn carrier="Vodafone IN" mcc="405" mnc="66" apn="www" type="default,supl" />
   <apn carrier="Vodafone" mcc="405" mnc="67" apn="portalnmms" proxy="10.10.1.100" port="9401" mmsproxy="10.10.1.100" mmsport="9401" mmsc="http://mms1.live.vodafone.in/mms/" server="" user="" password="" type="*" />
@@ -3063,6 +3129,10 @@
   <apn carrier="TSEL BROADBAND" mcc="510" mnc="10" apn="internet" proxy="" port="" user="wap" password="wap123" authtype="1" type="default,supl" />
   <apn carrier="TSEL TIMEBASED" mcc="510" mnc="10" apn="flash" proxy="" port="" user="wap" password="wap123" authtype="1" type="default,supl" />
   <apn carrier="TSEL MMS" mcc="510" mnc="10" apn="mms" mmsproxy="10.1.89.150" mmsport="8000" mmsc="http://mms.telkomsel.com" user="wap" password="wap123" authtype="1" type="mms" />
+  <apn carrier="AXIS" mcc="510" mnc="8" apn="AXIS" user="axis" password="123456" type="default,supl" />
+  <apn carrier="AXIS MMS" mcc="510" mnc="8" apn="AXISmms" user="axis" password="123456" mmsc="http://mmsc.AXIS" mmsproxy="10.8.3.8" mmsport="8080" type="mms" />
+  <apn carrier="Smartfren4G" apn="Smartfren4G" mcc="510" mnc="09" user="smartfren" password="smartfren" authtype="3" type="default" />
+  <apn carrier="Smartfren MMS" apn="smartfren" mcc="510" mnc="09" user="smartfren" password="smartfren" mmsc="http://10.17.93.103:8080" mmsproxy="10.17.27.250" mmsport="8080" authtype="3" type="mms" />
   <apn carrier="Telkomsel" mcc="510" mnc="10" apn="internet" type="default,supl" />
   <apn carrier="Telkomsel MMS" mcc="510" mnc="10" apn="mms" user="wap" password="wap123" mmsc="http://mms.telkomsel.com" mmsproxy="10.1.89.150" mmsport="9201" type="mms" />
   <apn carrier="XL Unlimited" mcc="510" mnc="11" apn="xlunlimited" proxy="202.152.240.50" port="8080" mmsproxy="" mmsport="" mmsc="" server="" user="" password="" type="default,supl" />
@@ -3079,6 +3149,8 @@
   <apn carrier="3 GPRS" mcc="510" mnc="89" apn="3gprs" user="3gprs" password="3gprs" authtype="1" type="default,supl" />
   <apn carrier="3 Unlimited" mcc="510" mnc="89" apn="3data" user="3data" password="3data" authtype="1" type="default,supl" />
   <apn carrier="3mms" mcc="510" mnc="89" apn="3mms" mmsproxy="10.4.0.10" mmsport="3128" mmsc="http://mms.three.co.id" user="3mms" password="3mms" authtype="2" type="mms" />
+  <apn carrier="Smartfren4G" apn="Smartfren4G" mcc="510" mnc="28" user="smartfren" password="smartfren" authtype="3" type="default" />
+  <apn carrier="Smartfren MMS" apn="smartfren" mcc="510" mnc="28" user="smartfren" password="smartfren" mmsc="http://10.17.93.103:8080" mmsproxy="10.17.27.250" mmsport="8080" authtype="3" type="mms" />
   <apn carrier="3 ID" mcc="510" mnc="89" apn="3gprs" user="3gprs" password="3gprs" type="default,supl" />
   <apn carrier="3 ID INTERNET" mcc="510" mnc="89" apn="3data" user="3data" password="3data" type="default,supl" />
   <apn carrier="3 ID MMS" mcc="510" mnc="89" apn="3mms" user="3mms" password="3mms" mmsc="http://mmsthree.co.id" mmsproxy="10.4.0.10" mmsport="3128" type="mms" />
