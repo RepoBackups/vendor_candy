@@ -40,5 +40,6 @@ add_lunch_combo candy5_togari-userdebug
 add_lunch_combo candy5_togari_gpe-userdebug
 add_lunch_combo candy5_tomato-userdebug
 add_lunch_combo candy5_v410-userdebug
+add_lunch_combo candy5_vs985-userdebug
 add_lunch_combo candy5_yuga-userdebug
 add_lunch_combo candy5_z3-userdebug
