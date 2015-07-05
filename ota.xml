@@ -38,9 +38,12 @@
 	<!--Put the changelog here... Use DaringFireball's Markdown to format it-->
 	<!--Surround special characters with the CDATA tags or your XML will NOT parse-->
 	<Changelog>
-	Changelog - 2.7
-	<br>current with cm source</br>
-	<br>screen off gestures (m8 only for now)</br>                                                                       \
+	<br>2.8
+        -Add SuperSU
+        -Add SELinux switch
+        -Update to android 5.1.1_r6 (LMY48G)
+        -Up to date with latest from cm-12.1</br>
+                                                                       \
 		
 	</Changelog>
 
