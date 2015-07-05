@@ -38,17 +38,18 @@
 	<!--Put the changelog here... Use DaringFireball's Markdown to format it-->
 	<!--Surround special characters with the CDATA tags or your XML will NOT parse-->
 	<Changelog>
-	<br>
-	##2.8
+<br>
+##2.8
 
-        -Add SuperSU
+-Add SuperSU
         
-	-Add SELinux switch
+-Add SELinux switch
 
-        -Update to android 5.1.1_r6 (LMY48G)
+-Update to android 5.1.1_r6 (LMY48G)
 
-        -Up to date with latest from cm-12.1</br>
-        </Changelog>
+-Up to date with latest from cm-12.1
+</br>
+	</Changelog>
 
 	 <!--Default Candy Addons Page Dont Like it change it  ! -->
         <AddonCount>2</AddonCount>
