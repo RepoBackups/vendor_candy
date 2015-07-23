@@ -148,14 +148,15 @@ PRODUCT_PACKAGES += \
     Basic \
     libemoji
 
-# Custom CM packages
+# Custom Candy packages
 PRODUCT_PACKAGES += \
     Launcher3 \
     Trebuchet \
     AudioFX \
     Eleven \
     CandyOTA \
-    LockClock   
+    LockClock \
+    KernelAdiutor  
 
 # CM Platform Library
 PRODUCT_PACKAGES += \
