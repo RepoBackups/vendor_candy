@@ -39,21 +39,21 @@
 	<!--Surround special characters with the CDATA tags or your XML will NOT parse-->
 	<Changelog>
 <br>
-##3.0 for this Mother,
+##3.1
 
--Add Top and Bottom Middle Options to Clear All Recent
+-New: weather temp in statusbar
 
--Settings: Added choice of 45 seconds for screen timeout
+-New: update SuperSU to 2.49
 
--Settings: add .25x and .75x animation speeds
+-New: add kernel Adiutor
 
--Launch SuperSU from Settings
+-New: EOS Navigation (Thanks @bigrushdog)
 
--Slim Recents option
+-New: DocumentsUI Major improvements (Thanks @bigrushdog and Omni)
 
--Option to force expanded notifications
+-New: Open app when clicking on icon in App Info screen
 
--Smart quicksettings pulldown
+-Removed: Statusbar ticker
 
 -Up to date with latest from cm-12.1
 
