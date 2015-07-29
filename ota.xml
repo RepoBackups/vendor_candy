@@ -39,23 +39,15 @@
 	<!--Surround special characters with the CDATA tags or your XML will NOT parse-->
 	<Changelog>
 <br>
-##3.1
+##3.1.1
 
--New: weather temp in statusbar
+-Fix: Ambient display Tile FC
 
--New: update SuperSU to 2.49
+-Fix: Statusbar Date style case sensitivity 
 
--New: add kernel Adiutor
+-Fix: Screen off geastures showing on unsupported devices
 
--New: EOS Navigation (Thanks @bigrushdog)
-
--New: DocumentsUI Major improvements (Thanks @bigrushdog and Omni)
-
--New: Open app when clicking on icon in App Info screen
-
--Removed: Statusbar ticker
-
--Up to date with latest from cm-12.1
+-Fix: support for latest vs985 modem
 
 </br>
 	</Changelog>
