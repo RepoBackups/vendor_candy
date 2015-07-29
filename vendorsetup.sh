@@ -14,7 +14,6 @@ add_lunch_combo candy5_grouper-userdebug
 add_lunch_combo candy5_hammerhead-userdebug
 add_lunch_combo candy5_hercules-userdebug
 add_lunch_combo candy5_honami-userdebug
-add_lunch_combo candy5_i9105p-userdebug
 add_lunch_combo candy5_jewel-userdebug
 add_lunch_combo candy5_lettuce-userdebug
 add_lunch_combo candy5_ls990-userdebug
